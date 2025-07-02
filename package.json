@@ -1,0 +1,12 @@
+{
+  "name": "n8n-bot",
+  "version": "1.0.0",
+  "description": "My Twitter Reply Bot using n8n",
+  "main": "index.js",
+  "scripts": {
+    "start": "n8n"
+  },
+  "dependencies": {
+    "n8n": "^1.25.0"
+  }
+}
