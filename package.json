@@ -1,12 +1,12 @@
 {
-  "name": "n8n-bot",
+  "name": "n8n-deploy",
   "version": "1.0.0",
-  "description": "My Twitter Reply Bot using n8n",
+  "description": "Self-hosted n8n on Render",
   "main": "index.js",
   "scripts": {
-    "start": "n8n"
+    "start": "n8n start"
   },
   "dependencies": {
-    "n8n": "^1.25.0"
+    "n8n": "^1.46.0"
   }
 }
