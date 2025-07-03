@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: n8n
+    name: n8n-app
     env: node
     plan: free
     buildCommand: npm install
@@ -8,5 +8,5 @@ services:
     envVars:
       - key: N8N_PORT
         value: 10000
-      - key: N8N_HOST
-        value: 0.0.0.0
+      - key: WEBHOOK_TUNNEL_URL
+        value: https://n8n-phone-xc8s.onrender.com
